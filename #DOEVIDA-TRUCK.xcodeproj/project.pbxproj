@@ -1,0 +1,408 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F8F212D1E54722000B247E1 /* EmpresasParceiras.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8F212C1E54722000B247E1 /* EmpresasParceiras.swift */; };
+		3F8F212F1E547B5800B247E1 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8F212E1E547B5800B247E1 /* MenuViewController.swift */; };
+		3F8F21311E5490AC00B247E1 /* RelacaoComGruposViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8F21301E5490AC00B247E1 /* RelacaoComGruposViewController.swift */; };
+		3F8F21331E5493A700B247E1 /* BancoDeSangueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8F21321E5493A700B247E1 /* BancoDeSangueViewController.swift */; };
+		3FAADA951E532C5400EB8180 /* CadastrarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FAADA941E532C5400EB8180 /* CadastrarViewController.swift */; };
+		3FAADA971E5336D400EB8180 /* Doador.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FAADA961E5336D400EB8180 /* Doador.swift */; };
+		3FAADA9D1E53473B00EB8180 /* PedidosTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FAADA9C1E53473B00EB8180 /* PedidosTableViewController.swift */; };
+		3FAADA9F1E5347C200EB8180 /* Pedidos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FAADA9E1E5347C200EB8180 /* Pedidos.swift */; };
+		3FAADAA11E53488500EB8180 /* PedidosTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FAADAA01E53488500EB8180 /* PedidosTableViewCell.swift */; };
+		3FAADAA31E534B6700EB8180 /* PedidosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FAADAA21E534B6700EB8180 /* PedidosViewController.swift */; };
+		4F4EEBDF1E55A23D00FCE6DD /* ResultadosDosExamesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4EEBDE1E55A23D00FCE6DD /* ResultadosDosExamesViewController.swift */; };
+		4F5E0A2A1E5285B000B3177B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F5E0A291E5285B000B3177B /* AppDelegate.swift */; };
+		4F5E0A2C1E5285B000B3177B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F5E0A2B1E5285B000B3177B /* ViewController.swift */; };
+		4F5E0A2F1E5285B000B3177B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F5E0A2D1E5285B000B3177B /* Main.storyboard */; };
+		4F5E0A321E5285B000B3177B /* _DOEVIDA_TRUCK.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4F5E0A301E5285B000B3177B /* _DOEVIDA_TRUCK.xcdatamodeld */; };
+		4F5E0A341E5285B000B3177B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F5E0A331E5285B000B3177B /* Assets.xcassets */; };
+		4F5E0A371E5285B000B3177B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F5E0A351E5285B000B3177B /* LaunchScreen.storyboard */; };
+		4FAA25ED1E56A88000789607 /* CadastrarPedidosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FAA25EC1E56A88000789607 /* CadastrarPedidosViewController.swift */; };
+		4FAA25F01E56D61D00789607 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FAA25EF1E56D61D00789607 /* MapKit.framework */; };
+		4FAA25F21E56D62700789607 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FAA25F11E56D62700789607 /* CoreLocation.framework */; };
+		4FAA25F41E56DA2E00789607 /* DescontosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FAA25F31E56DA2E00789607 /* DescontosViewController.swift */; };
+		4FAA25F61E56EA5800789607 /* MapaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FAA25F51E56EA5800789607 /* MapaViewController.swift */; };
+		4FAA25F81E56EBF600789607 /* Locais.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FAA25F71E56EBF600789607 /* Locais.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3F8F212C1E54722000B247E1 /* EmpresasParceiras.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmpresasParceiras.swift; sourceTree = "<group>"; };
+		3F8F212E1E547B5800B247E1 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		3F8F21301E5490AC00B247E1 /* RelacaoComGruposViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RelacaoComGruposViewController.swift; sourceTree = "<group>"; };
+		3F8F21321E5493A700B247E1 /* BancoDeSangueViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BancoDeSangueViewController.swift; sourceTree = "<group>"; };
+		3FAADA941E532C5400EB8180 /* CadastrarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CadastrarViewController.swift; sourceTree = "<group>"; };
+		3FAADA961E5336D400EB8180 /* Doador.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Doador.swift; sourceTree = "<group>"; };
+		3FAADA9C1E53473B00EB8180 /* PedidosTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PedidosTableViewController.swift; sourceTree = "<group>"; };
+		3FAADA9E1E5347C200EB8180 /* Pedidos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pedidos.swift; sourceTree = "<group>"; };
+		3FAADAA01E53488500EB8180 /* PedidosTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PedidosTableViewCell.swift; sourceTree = "<group>"; };
+		3FAADAA21E534B6700EB8180 /* PedidosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PedidosViewController.swift; sourceTree = "<group>"; };
+		4F4EEBDE1E55A23D00FCE6DD /* ResultadosDosExamesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultadosDosExamesViewController.swift; sourceTree = "<group>"; };
+		4F5E0A261E5285B000B3177B /* #DOEVIDA-TRUCK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "#DOEVIDA-TRUCK.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F5E0A291E5285B000B3177B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4F5E0A2B1E5285B000B3177B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4F5E0A2E1E5285B000B3177B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4F5E0A311E5285B000B3177B /* _DOEVIDA_TRUCK.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = _DOEVIDA_TRUCK.xcdatamodel; sourceTree = "<group>"; };
+		4F5E0A331E5285B000B3177B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4F5E0A361E5285B000B3177B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4F5E0A381E5285B000B3177B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4FAA25EC1E56A88000789607 /* CadastrarPedidosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CadastrarPedidosViewController.swift; sourceTree = "<group>"; };
+		4FAA25EF1E56D61D00789607 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		4FAA25F11E56D62700789607 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		4FAA25F31E56DA2E00789607 /* DescontosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DescontosViewController.swift; sourceTree = "<group>"; };
+		4FAA25F51E56EA5800789607 /* MapaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapaViewController.swift; sourceTree = "<group>"; };
+		4FAA25F71E56EBF600789607 /* Locais.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Locais.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4F5E0A231E5285B000B3177B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FAA25F21E56D62700789607 /* CoreLocation.framework in Frameworks */,
+				4FAA25F01E56D61D00789607 /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3FAADA931E532BF400EB8180 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				4F5E0A291E5285B000B3177B /* AppDelegate.swift */,
+				4F5E0A351E5285B000B3177B /* LaunchScreen.storyboard */,
+				4F5E0A381E5285B000B3177B /* Info.plist */,
+			);
+			name = Support;
+			sourceTree = "<group>";
+		};
+		4F5E0A1D1E5285AF00B3177B = {
+			isa = PBXGroup;
+			children = (
+				4F5E0A281E5285B000B3177B /* #DOEVIDA-TRUCK */,
+				4F5E0A271E5285B000B3177B /* Products */,
+				4FAA25EE1E56D61D00789607 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4F5E0A271E5285B000B3177B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4F5E0A261E5285B000B3177B /* #DOEVIDA-TRUCK.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4F5E0A281E5285B000B3177B /* #DOEVIDA-TRUCK */ = {
+			isa = PBXGroup;
+			children = (
+				4F5E0A2B1E5285B000B3177B /* ViewController.swift */,
+				4F5E0A2D1E5285B000B3177B /* Main.storyboard */,
+				4FAA25F71E56EBF600789607 /* Locais.swift */,
+				4FAA25F51E56EA5800789607 /* MapaViewController.swift */,
+				4FAA25F31E56DA2E00789607 /* DescontosViewController.swift */,
+				4FAA25EC1E56A88000789607 /* CadastrarPedidosViewController.swift */,
+				4F4EEBDE1E55A23D00FCE6DD /* ResultadosDosExamesViewController.swift */,
+				3F8F21321E5493A700B247E1 /* BancoDeSangueViewController.swift */,
+				3F8F21301E5490AC00B247E1 /* RelacaoComGruposViewController.swift */,
+				3F8F212E1E547B5800B247E1 /* MenuViewController.swift */,
+				3FAADAA21E534B6700EB8180 /* PedidosViewController.swift */,
+				3FAADAA01E53488500EB8180 /* PedidosTableViewCell.swift */,
+				3FAADA9C1E53473B00EB8180 /* PedidosTableViewController.swift */,
+				3FAADA9E1E5347C200EB8180 /* Pedidos.swift */,
+				3F8F212C1E54722000B247E1 /* EmpresasParceiras.swift */,
+				3FAADA961E5336D400EB8180 /* Doador.swift */,
+				3FAADA941E532C5400EB8180 /* CadastrarViewController.swift */,
+				4F5E0A331E5285B000B3177B /* Assets.xcassets */,
+				4F5E0A301E5285B000B3177B /* _DOEVIDA_TRUCK.xcdatamodeld */,
+				3FAADA931E532BF400EB8180 /* Support */,
+			);
+			path = "#DOEVIDA-TRUCK";
+			sourceTree = "<group>";
+		};
+		4FAA25EE1E56D61D00789607 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4FAA25F11E56D62700789607 /* CoreLocation.framework */,
+				4FAA25EF1E56D61D00789607 /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4F5E0A251E5285B000B3177B /* #DOEVIDA-TRUCK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F5E0A3B1E5285B000B3177B /* Build configuration list for PBXNativeTarget "#DOEVIDA-TRUCK" */;
+			buildPhases = (
+				4F5E0A221E5285B000B3177B /* Sources */,
+				4F5E0A231E5285B000B3177B /* Frameworks */,
+				4F5E0A241E5285B000B3177B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "#DOEVIDA-TRUCK";
+			productName = "#DOEVIDA-TRUCK";
+			productReference = 4F5E0A261E5285B000B3177B /* #DOEVIDA-TRUCK.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4F5E0A1E1E5285AF00B3177B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = BloodTruck;
+				TargetAttributes = {
+					4F5E0A251E5285B000B3177B = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 4F5E0A211E5285AF00B3177B /* Build configuration list for PBXProject "#DOEVIDA-TRUCK" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4F5E0A1D1E5285AF00B3177B;
+			productRefGroup = 4F5E0A271E5285B000B3177B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4F5E0A251E5285B000B3177B /* #DOEVIDA-TRUCK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4F5E0A241E5285B000B3177B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F5E0A371E5285B000B3177B /* LaunchScreen.storyboard in Resources */,
+				4F5E0A341E5285B000B3177B /* Assets.xcassets in Resources */,
+				4F5E0A2F1E5285B000B3177B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4F5E0A221E5285B000B3177B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FAADA9F1E5347C200EB8180 /* Pedidos.swift in Sources */,
+				4FAA25ED1E56A88000789607 /* CadastrarPedidosViewController.swift in Sources */,
+				4FAA25F81E56EBF600789607 /* Locais.swift in Sources */,
+				3F8F21331E5493A700B247E1 /* BancoDeSangueViewController.swift in Sources */,
+				4F4EEBDF1E55A23D00FCE6DD /* ResultadosDosExamesViewController.swift in Sources */,
+				3FAADA971E5336D400EB8180 /* Doador.swift in Sources */,
+				3FAADAA11E53488500EB8180 /* PedidosTableViewCell.swift in Sources */,
+				3FAADA951E532C5400EB8180 /* CadastrarViewController.swift in Sources */,
+				3F8F21311E5490AC00B247E1 /* RelacaoComGruposViewController.swift in Sources */,
+				3F8F212F1E547B5800B247E1 /* MenuViewController.swift in Sources */,
+				4FAA25F41E56DA2E00789607 /* DescontosViewController.swift in Sources */,
+				3F8F212D1E54722000B247E1 /* EmpresasParceiras.swift in Sources */,
+				4FAA25F61E56EA5800789607 /* MapaViewController.swift in Sources */,
+				3FAADAA31E534B6700EB8180 /* PedidosViewController.swift in Sources */,
+				4F5E0A2C1E5285B000B3177B /* ViewController.swift in Sources */,
+				4F5E0A321E5285B000B3177B /* _DOEVIDA_TRUCK.xcdatamodeld in Sources */,
+				3FAADA9D1E53473B00EB8180 /* PedidosTableViewController.swift in Sources */,
+				4F5E0A2A1E5285B000B3177B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4F5E0A2D1E5285B000B3177B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4F5E0A2E1E5285B000B3177B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4F5E0A351E5285B000B3177B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4F5E0A361E5285B000B3177B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4F5E0A391E5285B000B3177B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4F5E0A3A1E5285B000B3177B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4F5E0A3C1E5285B000B3177B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "#DOEVIDA-TRUCK/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cursoios.-DOEVIDA-TRUCK";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4F5E0A3D1E5285B000B3177B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "#DOEVIDA-TRUCK/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cursoios.-DOEVIDA-TRUCK";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4F5E0A211E5285AF00B3177B /* Build configuration list for PBXProject "#DOEVIDA-TRUCK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F5E0A391E5285B000B3177B /* Debug */,
+				4F5E0A3A1E5285B000B3177B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F5E0A3B1E5285B000B3177B /* Build configuration list for PBXNativeTarget "#DOEVIDA-TRUCK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F5E0A3C1E5285B000B3177B /* Debug */,
+				4F5E0A3D1E5285B000B3177B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4F5E0A301E5285B000B3177B /* _DOEVIDA_TRUCK.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4F5E0A311E5285B000B3177B /* _DOEVIDA_TRUCK.xcdatamodel */,
+			);
+			currentVersion = 4F5E0A311E5285B000B3177B /* _DOEVIDA_TRUCK.xcdatamodel */;
+			path = _DOEVIDA_TRUCK.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 4F5E0A1E1E5285AF00B3177B /* Project object */;
+}
